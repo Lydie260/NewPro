@@ -9,6 +9,8 @@ router.get('/', (req, res) =>{
     });
 });
 router.post('/register', usersController.createAccount);
+router.post('/login', usersController.login);
+
 
 
 
